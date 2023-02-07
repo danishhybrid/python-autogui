@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>YouTube Video Downloader</title>
+  </head>
+  <body>
+    <h2>Search for a video:</h2>
+    <form method="post">
+      <input type="text" name="query">
+      <input type="submit" name="search" value="Search">
+    </form>
+    <br>
+    <h2>Or enter the URLs of two videos:</h2>
+    <form method="post">
+      First YouTube video URL: <input type="text" name="url_1"><br><br>
+      Second YouTube video URL: <input type="text" name="url_2"><br><br>
+      Save path: <input type="text" name="save_path"><br><br>
+      File type:
+      <select name="file_type">
+        <option value="mp4">MP4</option>
+      </select><br><br>
+      Quality:
+      <select name="quality">
+        <option value="720p">720p</option>
+      </select><br><br>
+      <input type="submit" value="Download and Combine">
+    </form>
+  </body>
+</html>
